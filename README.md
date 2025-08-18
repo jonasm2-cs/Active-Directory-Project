@@ -1,4 +1,4 @@
-# Active Directory Lab
+# Cybersecurity Active Directory Project
 
 ## Objective
 [Brief Objective - Remove this afterwards]
