@@ -12,10 +12,13 @@ This Active Directory project is aimed to establish a controlled environment for
 - <a href="https://google.com">Demo</a>
 
 ## Tools Used
-![Splunk](https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white)
-![Windows Server](https://img.shields.io/badge/-Windows%20Server-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white)
-![Windows OS](https://img.shields.io/badge/-Windows%20OS-0078D6?&style=for-the-badge&logo=Windows&logoColor=white)
-![Slack](https://img.shields.io/badge/-Slack-4A154B?&style=for-the-badge&logo=Slack&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Windows%20Server-737373?&style=for-the-badge&logo=Microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Windows%20OS-0078D6?&style=for-the-badge&logo=Windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Slack-4A154B?&style=for-the-badge&logo=Slack&logoColor=white" />
+</p>
+
 
 
 
