@@ -26,13 +26,10 @@ This Active Directory project is aimed to establish a controlled environment for
 
 
 ## P1. Logical Diagram
-drag & drop screenshots here or use imgur and reference them using imgsrc
+<p><b>Objective:</b> Create a Logical Diagram using <a href ="https://app.diagrams.net/">draw.io </a> to visualize what our project will look like.</p>
+<img width="1027" height="642" alt="Active Directory Project drawio" src="https://github.com/user-attachments/assets/12dea8b8-0bd3-4ff6-bdbb-27e3c962767a" />
+<b>Watch Tutorial:</b> <a href="https://www.youtube.com/watch?v=1nX6_Nlly-4&ab_channel=MyDFIR"> Cybersecurity Project: Active Directory 2.0 | Part 1 </a>
 
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
 ## P2. Setting up our Cloud 
 ## P3. Install and Setup Active Directory
 ## P4. Configuring Splunk 
