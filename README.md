@@ -17,6 +17,8 @@ This Active Directory project is aimed to establish a controlled environment for
   <img src="https://img.shields.io/badge/-Windows%20Server-737373?&style=for-the-badge&logo=Microsoft&logoColor=white" />
   <img src="https://img.shields.io/badge/-Windows%20OS-0078D6?&style=for-the-badge&logo=Windows&logoColor=white" />
   <img src="https://img.shields.io/badge/-Slack-4A154B?&style=for-the-badge&logo=Slack&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Vultr-007BFC?&style=for-the-badge&logo=Vultr&logoColor=white" />
+
 </p>
 
 
