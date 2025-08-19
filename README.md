@@ -27,7 +27,7 @@ Example below.
 ## P4. Configureing Splunk 
 ## P5. Integrate Slack & Shuffle for Automation
 
-### Demo
+## Demo
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
