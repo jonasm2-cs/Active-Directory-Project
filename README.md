@@ -3,17 +3,18 @@
 ## Objective
 This Active Directory project is aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus is to setup an Acitve Directory environment, setup Splunk to detect unauthorized logins, and setup automated responses to the alert using Shuffle as our main Securtiy Orchestration, Automation, Response (SOAR) Tool. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
 
-### Table of Contents
-- 
+## Table of Contents
+- <a href="https://github.com/jonasm2-cs/Active-Directory-Project/edit/main/README.md#logical-diagram">P1. Logical Diagram</a>
+- <a href="https://github.com/jonasm2-cs/Active-Directory-Project/edit/main/README.md#p2-setting-up-our-cloud">P2. Setting up our Cloud</a>
+- <a href="https://google.com">P3. Install and Setup Active Directory</a>
+- <a href="https://google.com">P4. Configureing Splunk</a>
+- <a href="https://google.com">P5. Integrate Slack & Shuffle for Automation</a>
+- <a href="https://google.com">Demo</a>
 
-### Tools Used
-[Bullet Points - Remove this afterwards]
+## Tools Used
+<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- 
-- 
-
-### Logical Diagram
+## Logical Diagram
 drag & drop screenshots here or use imgur and reference them using imgsrc
 
 Every screenshot should have some text explaining what the screenshot is about.
@@ -21,12 +22,12 @@ Every screenshot should have some text explaining what the screenshot is about.
 Example below.
 
 *Ref 1: Network Diagram*
-### P2. Setting up our Cloud 
-### P3. Install and Setup Active Directory
-### P4. Configureing Splunk 
-### P5. Integrate Slack & Shuffle for Automation
+## P2. Setting up our Cloud 
+## P3. Install and Setup Active Directory
+## P4. Configureing Splunk 
+## P5. Integrate Slack & Shuffle for Automation
 
-### Video Demo
+### Demo
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
