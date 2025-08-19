@@ -29,7 +29,7 @@ Example below.
 
 ## Demo
 
-### Skills Learned
+## Skills Learned
 [Bullet Points - Remove this afterwards]
 
 - Advanced understanding of SIEM concepts and practical application.
