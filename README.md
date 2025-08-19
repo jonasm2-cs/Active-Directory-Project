@@ -14,7 +14,7 @@ This Active Directory project is aimed to establish a controlled environment for
 ## Tools Used
 <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 
-## Logical Diagram
+## P1. Logical Diagram
 drag & drop screenshots here or use imgur and reference them using imgsrc
 
 Every screenshot should have some text explaining what the screenshot is about.
