@@ -12,7 +12,14 @@ This Active Directory project is aimed to establish a controlled environment for
 - <a href="https://google.com">Demo</a>
 
 ## Tools Used
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
+<img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white">
+<img src="https://img.shields.io/badge/-Windows%20Server-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white">
+<img src="https://img.shields.io/badge/-Windows%20OS-0078D6?&style=for-the-badge&logo=Windows&logoColor=white">
+<img src="https://img.shields.io/badge/-Shuffle%20SOAR-FF6600?&style=for-the-badge&logo=robot&logoColor=white">
+<img src="https://img.shields.io/badge/-Slack-4A154B?&style=for-the-badge&logo=Slack&logoColor=white">
+
+
+
 
 ## P1. Logical Diagram
 drag & drop screenshots here or use imgur and reference them using imgsrc
