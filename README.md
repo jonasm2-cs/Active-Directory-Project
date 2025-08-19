@@ -24,7 +24,7 @@ Example below.
 *Ref 1: Network Diagram*
 ## P2. Setting up our Cloud 
 ## P3. Install and Setup Active Directory
-## P4. Configureing Splunk 
+## P4. Configuring Splunk 
 ## P5. Integrate Slack & Shuffle for Automation
 
 ## Demo
