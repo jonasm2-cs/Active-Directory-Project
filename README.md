@@ -3,13 +3,7 @@
 ## Objective
 This Active Directory project is aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus is to setup an Acitve Directory environment, setup Splunk to detect unauthorized logins, and setup automated responses to the alert using Shuffle as our main Securtiy Orchestration, Automation, Response (SOAR) Tool. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
 
-## Table of Contents
-- <a href="https://github.com/jonasm2-cs/Active-Directory-Project/blob/main/README.md#p1-logical-diagram">P1. Logical Diagram</a>
-- <a href="https://github.com/jonasm2-cs/Active-Directory-Project/blob/main/README.md#p2-setting-up-our-cloud">P2. Setting up our Cloud</a>
-- <a href="https://github.com/jonasm2-cs/Active-Directory-Project/blob/main/README.md#p3-install-and-setup-active-directory">P3. Install and Setup Active Directory</a>
-- <a href="https://github.com/jonasm2-cs/Active-Directory-Project/blob/main/README.md#p4-configuring-splunk">P4. Configuring Splunk</a>
-- <a href="https://github.com/jonasm2-cs/Active-Directory-Project/blob/main/README.md#p5-integrate-slack--shuffle-for-automation">P5. Integrate Slack & Shuffle for Automation</a>
-- <a href="https://google.com">Demo</a>
+
 
 ## Tools Used
 <p>
@@ -21,6 +15,14 @@ This Active Directory project is aimed to establish a controlled environment for
 
 </p>
 
+## Table of Contents
+- <a href="https://github.com/jonasm2-cs/Active-Directory-Project/blob/main/README.md#p1-logical-diagram">P1. Logical Diagram</a>
+- <a href="https://github.com/jonasm2-cs/Active-Directory-Project/blob/main/README.md#p2-setting-up-our-cloud">P2. Setting up our Cloud</a>
+- <a href="https://github.com/jonasm2-cs/Active-Directory-Project/blob/main/README.md#p3-install-and-setup-active-directory">P3. Install and Setup Active Directory</a>
+- <a href="https://github.com/jonasm2-cs/Active-Directory-Project/blob/main/README.md#p4-configuring-splunk">P4. Configuring Splunk</a>
+- <a href="https://github.com/jonasm2-cs/Active-Directory-Project/blob/main/README.md#p5-integrate-slack--shuffle-for-automation">P5. Integrate Slack & Shuffle for Automation</a>
+- <a href="https://google.com">Demo</a>
+
 
 
 
@@ -31,6 +33,37 @@ This Active Directory project is aimed to establish a controlled environment for
 <b>Watch Tutorial:</b> <a href="https://www.youtube.com/watch?v=1nX6_Nlly-4&ab_channel=MyDFIR"> Cybersecurity Project: Active Directory 2.0 | Part 1 </a>
 
 ## P2. Setting up our Cloud 
+<p><b>Objective: </b> Create 3 Virtual machines using Vultr (Cloud platform) and ensure VMs can communicate with each other. By the end we will have 2 Windows Servers (1 Domain Controller, 1 Test machine) and 1 Ubuntu Server which will be hosting our Splunk SIEM.</p><strong>Note: This can be done on-prem but there will be more steps involved</strong>
+
+### Step 1: Sign-up for Vultr
+1. Go to [Vultr](https://www.vultr.com)
+2. Click **Sign Up**
+3. Enter your email and password
+4. Verify your email address
+5. Log in to the Vultr dashboard
+
+
+
+
+### Step 2: Creating our Virtual Machines
+1. From the dashboard, click **Deploy New Server**
+2. Select a **Server Location** closest to you
+3. Choose your **Operating System** (e.g., Ubuntu 22.04)
+4. Select server size (CPU, RAM, Storage)
+5. Click **Deploy Now**
+
+
+### Step 3: Configuring Network Settings
+1. Enable **Private Networking** (optional but recommended)
+2. Assign a static IP address if needed
+3. Configure firewall rules:
+   - Allow SSH (port 22)
+   - Allow HTTP/HTTPS if hosting a website
+   - Deny all other traffic by default
+
+### Step 4: Configuring the Server
+1. Connect to your VM using SSH 
+
 ## P3. Install and Setup Active Directory
 ## P4. Configuring Splunk 
 ## P5. Integrate Slack & Shuffle for Automation
