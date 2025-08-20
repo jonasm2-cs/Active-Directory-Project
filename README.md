@@ -54,6 +54,11 @@ This Active Directory project is aimed to establish a controlled environment for
 
 ### Step 4: Configuring the Servers
 1. 
+| Machine | Spcifications |
+|-------------------|--------------------|
+| Domain Controller | <ul><li>CPU: 1vCPU</li><li>RAM: 2GB</li><li>Storage: 64GB</li><li>Operating System: Windows Server 2022</li></ul> |
+| Testing Machine   | <ul><li>CPU: 1vCPU</li><li>RAM: 2GB</li><li>Storage: 64GB</li><li>Operating System: Windows Server 2022</li></ul> |
+| Splunk Server     | <ul><li>CPU: 1vCPU</li><li>RAM: 3.5GB</li><li>Storage: 128GB</li><li>Operating System: Ubuntu 22.04</li></ul> |
 
 ## P3. Install and Setup Active Directory
 ## P4. Configuring Splunk 
