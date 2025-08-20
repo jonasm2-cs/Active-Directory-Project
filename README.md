@@ -28,10 +28,10 @@ This Active Directory project is aimed to establish a controlled environment for
 
 ## P1. Logical Diagram
 <p><b>Objective:</b> Create a Logical Diagram using <a href ="https://app.diagrams.net/">draw.io </a> to visualize what our project will look like.</p>
-<img width="1027" height="642" alt="Active Directory Project drawio" src="https://github.com/user-attachments/assets/12dea8b8-0bd3-4ff6-bdbb-27e3c962767a" />
+<img width="1027" height="642" alt="Active Directory Project drawio" src="https://github.com/user-attachments/assets/6511a62c-539d-4b23-9382-dd63854f7ee5" />
 <b>Watch Tutorial:</b> <a href="https://www.youtube.com/watch?v=1nX6_Nlly-4&ab_channel=MyDFIR"> Cybersecurity Project: Active Directory 2.0 | Part 1 </a>
 
-## P2. Setting up our Cloud 
+## P2. Setting up our Cloud Environment
 <p><b>Objective: </b> Create 3 Virtual machines using Azure (Cloud platform) and ensure VMs can communicate with each other. By the end we will have 2 Windows Servers (1 Domain Controller, 1 Test machine) and 1 Ubuntu Server which will be hosting our Splunk SIEM.</p><strong>Note: This can be done on-prem but there will be more steps involved</strong>
 
 ### Step 1: Sign-up for Azure
