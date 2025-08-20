@@ -26,8 +26,6 @@ This Active Directory project is aimed to establish a controlled environment for
 
 
 
-
-
 ## P1. Logical Diagram
 <p><b>Objective:</b> Create a Logical Diagram using <a href ="https://app.diagrams.net/">draw.io </a> to visualize what our project will look like.</p>
 <img width="1027" height="642" alt="Active Directory Project drawio" src="https://github.com/user-attachments/assets/12dea8b8-0bd3-4ff6-bdbb-27e3c962767a" />
@@ -37,14 +35,13 @@ This Active Directory project is aimed to establish a controlled environment for
 <p><b>Objective: </b> Create 3 Virtual machines using Azure (Cloud platform) and ensure VMs can communicate with each other. By the end we will have 2 Windows Servers (1 Domain Controller, 1 Test machine) and 1 Ubuntu Server which will be hosting our Splunk SIEM.</p><strong>Note: This can be done on-prem but there will be more steps involved</strong>
 
 ### Step 1: Sign-up for Azure
-1. Go to [Vultr](https://www.vultr.co
-3. Enter your email and password
-4. 
-5. 
+1. Go to [Azure](https://azure.microsoft.com/en-ca/pricing/purchase-options/azure-account) - If you are a student go [here](https://azure.microsoft.com/en-us/free/students).
+3. Fill-in fields 
+4. Click-on **Sign Up**
 
 ### Step 2: Creating our Virtual Machines
-1. 
-2. 
+1. Once you are in - click on the "Hamburger" Icon on the top left corner - Then Click on **Virtual Machines**
+2. Click **Create** > **Virtual Machine**
 3. 
 4. 
 5. 
