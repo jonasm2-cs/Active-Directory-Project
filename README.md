@@ -9,9 +9,10 @@ This Active Directory project is aimed to establish a controlled environment for
 <p>
   <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
   <img src="https://img.shields.io/badge/-Windows%20Server-737373?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Windows%20OS-0078D6?&style=for-the-badge&logo=Windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Ubuntu%20Server-E95420?&style=for-the-badge&logo=Ubuntu&logoColor=white" />
   <img src="https://img.shields.io/badge/-Slack-4A154B?&style=for-the-badge&logo=Slack&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Vultr-007BFC?&style=for-the-badge&logo=Vultr&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Azure-0078D4?&style=for-the-badge&logo=Microsoft%20Azure&logoColor=white" />
+
 
 </p>
 
@@ -33,36 +34,29 @@ This Active Directory project is aimed to establish a controlled environment for
 <b>Watch Tutorial:</b> <a href="https://www.youtube.com/watch?v=1nX6_Nlly-4&ab_channel=MyDFIR"> Cybersecurity Project: Active Directory 2.0 | Part 1 </a>
 
 ## P2. Setting up our Cloud 
-<p><b>Objective: </b> Create 3 Virtual machines using Vultr (Cloud platform) and ensure VMs can communicate with each other. By the end we will have 2 Windows Servers (1 Domain Controller, 1 Test machine) and 1 Ubuntu Server which will be hosting our Splunk SIEM.</p><strong>Note: This can be done on-prem but there will be more steps involved</strong>
+<p><b>Objective: </b> Create 3 Virtual machines using Azure (Cloud platform) and ensure VMs can communicate with each other. By the end we will have 2 Windows Servers (1 Domain Controller, 1 Test machine) and 1 Ubuntu Server which will be hosting our Splunk SIEM.</p><strong>Note: This can be done on-prem but there will be more steps involved</strong>
 
-### Step 1: Sign-up for Vultr
-1. Go to [Vultr](https://www.vultr.com)
-2. Click **Sign Up**
+### Step 1: Sign-up for Azure
+1. Go to [Vultr](https://www.vultr.co
 3. Enter your email and password
-4. Verify your email address
-5. Log in to the Vultr dashboard
-
-
-
+4. 
+5. 
 
 ### Step 2: Creating our Virtual Machines
-1. From the dashboard, click **Deploy New Server**
-2. Select a **Server Location** closest to you
-3. Choose your **Operating System** (e.g., Ubuntu 22.04)
-4. Select server size (CPU, RAM, Storage)
-5. Click **Deploy Now**
+1. 
+2. 
+3. 
+4. 
+5. 
 
 
 ### Step 3: Configuring Network Settings
-1. Enable **Private Networking** (optional but recommended)
-2. Assign a static IP address if needed
-3. Configure firewall rules:
-   - Allow SSH (port 22)
-   - Allow HTTP/HTTPS if hosting a website
-   - Deny all other traffic by default
+1. 
+2. 
+3. 
 
-### Step 4: Configuring the Server
-1. Connect to your VM using SSH 
+### Step 4: Configuring the Servers
+1. 
 
 ## P3. Install and Setup Active Directory
 ## P4. Configuring Splunk 
