@@ -32,14 +32,13 @@ This Active Directory project is aimed to establish a controlled environment for
 <b>Watch Tutorial:</b> <a href="https://www.youtube.com/watch?v=1nX6_Nlly-4&ab_channel=MyDFIR"> Cybersecurity Project: Active Directory 2.0 | Part 1 </a>
 
 ## P2. Setting up our Cloud Environment
-<p><b>Objective: </b> Create 3 Virtual machines using Azure (Cloud platform) and ensure VMs can communicate with each other. By the end we will have 2 Windows Servers (1 Domain Controller, 1 Test machine) and 1 Ubuntu Server which will be hosting our Splunk SIEM.</p><strong>Note: This can be done on-prem but there will be more steps involved</strong>
+<p><b>Objective: </b> Create 3 Virtual machines using Azure (Cloud platform) and ensure VMs can communicate with each other. By the end we will have 2 Windows Servers (1 Domain Controller, 1 Test machine) and 1 Ubuntu Server which will be hosting our Splunk SIEM.</p>
 
-### Step 1: Sign-up for Azure
-1. Go to [Azure](https://azure.microsoft.com/en-ca/pricing/purchase-options/azure-account) - If you are a student go [here](https://azure.microsoft.com/en-us/free/students).
-3. Fill-in fields 
-4. Click-on **Sign Up**
+### Prequisites
+1. [Azure](https://azure.microsoft.com/en-ca/pricing/purchase-options/azure-account) account - If you are a student go [here](https://azure.microsoft.com/en-us/free/students). <strong>Note: This can be done on-prem but there will be more steps involved</strong>
 
-### Step 2: Creating our Virtual Machines
+
+### Step 1: Creating our Virtual Machines
 1. Once you are in - click on the "Hamburger" Icon on the top left corner - Then Click on **Virtual Machines**
 2. Click **Create** > **Virtual Machine**
 3. 
@@ -47,12 +46,12 @@ This Active Directory project is aimed to establish a controlled environment for
 5. 
 
 
-### Step 3: Configuring Network Settings
+### Step 2: Configuring Network Settings
 1. 
 2. 
 3. 
 
-### Step 4: Configuring the Servers
+### Step 3: Configuring the Servers
 1. 
 | Machine | Spcifications |
 |-------------------|--------------------|
