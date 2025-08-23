@@ -38,16 +38,19 @@ This Active Directory project is aimed to establish a controlled environment for
 1. [Azure](https://azure.microsoft.com/en-ca/pricing/purchase-options/azure-account) account - If you are a student go [here](https://azure.microsoft.com/en-us/free/students). <strong>Note: This can be done on-prem but there will be more steps involved</strong>
 
 
-### Step 1: Creating our Virtual Machines
-1. Once you are in - click on the "Hamburger" Icon on the top left corner - Then Click on **Virtual Machines**
+### Step 1: Creating our Virtual Machines on Azure
+1. Once you are in - click on *Virtual Machines*
 2. Click **Create** > **Virtual Machine**
-3. 
-4. 
-5. 
-
+3. Create a resource group and name it.
+4. Change Virtual Machine Name > Region (Choose region closest to you) > Image > Size (see below for specifications)
+5. Fill in Username and Password fields - *Save it for later*
+6. Inbound port rules: Select: Allow Selected ports > Select: RDP (3389) - *Change this to SSH(22) on the Ubuntu (Splunk) Server*
+7. Create new Virtual Network > Keep Subnet default
+8. Repeat for other VMs
+9. Test Functionality
 
 ### Step 2: Configuring Network Settings
-1. 
+1. In Networking tab
 2. 
 3. 
 
@@ -55,9 +58,11 @@ This Active Directory project is aimed to establish a controlled environment for
 1. 
 | Machine | Spcifications |
 |-------------------|--------------------|
-| Domain Controller | <ul><li>CPU: 1vCPU</li><li>RAM: 2GB</li><li>Storage: 64GB</li><li>Operating System: Windows Server 2022</li></ul> |
-| Testing Machine   | <ul><li>CPU: 1vCPU</li><li>RAM: 2GB</li><li>Storage: 64GB</li><li>Operating System: Windows Server 2022</li></ul> |
-| Splunk Server     | <ul><li>CPU: 1vCPU</li><li>RAM: 3.5GB</li><li>Storage: 128GB</li><li>Operating System: Ubuntu 22.04</li></ul> |
+| ADLAB-ADDC1 (Domain Controller) | <ul><li>VM Size: Standard B2s</li><li>CPU: 2vCPU</li><li>RAM: 4GB</li><li>Storage: 128GB</li><li>Operating System: Windows Server 2022</li><li>Inbound Ports: RDP(3389)</li><li>Virtual Network: ADLAB-vnet</li></ul> |
+| ADLAB-TEST (Testing Machine)   | <ul><li>VM Size: Standard B1ms</li><li>CPU: 1vCPU</li><li>RAM: 2GB</li><li>Storage: 64GB</li><li>Operating System: Windows Server 2022</li><li>Inbound Ports: RDP(3389)</li><li>Virtual Network: ADLAB-vnet</li></ul> |
+| ADLAB-SPLUNK(Splunk Server)     | <ul><li>VM Size: Standard D2sv3</li><li>CPU: 2vCPU</li><li>RAM: 8GB</li><li>Storage: 160GB</li><li>Operating System: Ubuntu 22.04</li><li>Inbound Ports: SSH(22)</li><li>Virtual Network: ADLAB-vnet</li></ul> |
+<img width="1340" height="486" alt="image" src="https://github.com/user-attachments/assets/be664dcd-b5f1-41bd-90f1-f15541c9a0f8" />
+
 
 ## P3. Install and Setup Active Directory
 ## P4. Configuring Splunk 
