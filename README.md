@@ -49,19 +49,27 @@ This Active Directory project is aimed to establish a controlled environment for
 8. Repeat for other VMs
 9. Test Functionality
 
-### Step 2: Configuring Network Settings
-1. In Networking tab
-2. 
-3. 
+### Step 2: Configuring Windows Firewall Settings
+1. Connect to a Virtual Machine via Remote Desktop Protocol (RDP) or Bastion (on the Azure Portal)
+2. Once you are in > Open **Windows Firewall with Advanced settings**
+3. Go to **Inbound Rules** > **New Rule (Right-hand side)**
+4. Change the following: **Rule Type: Custom** > **Program: All programs** > **Protocol and Ports - Protocol Type:ICMPv4** > **Scope: Any IP address > Action: Allow the Connection** > **Profile: Domain, Private, Public > Name: AllowICMP**
+5. Repeat for other Virtual Machine
+6. Verify Functionality
 
-### Step 3: Configuring the Servers
+Since both VMs are under the same virtual network, our VMs will not be expose through the internet
+
+<b>Watch Tutorial for Troubleshooting:</b> <a href="https://www.youtube.com/watch?v=nNvD9IcdXLA&ab_channel=Dataverax"> Azure Network Ping Problems and ICMP </a>
+
+### Step 3: Configuring our Splunk Server
 1. 
 | Machine | Spcifications |
 |-------------------|--------------------|
 | ADLAB-ADDC1 (Domain Controller) | <ul><li>VM Size: Standard B2s</li><li>CPU: 2vCPU</li><li>RAM: 4GB</li><li>Storage: 128GB</li><li>Operating System: Windows Server 2022</li><li>Inbound Ports: RDP(3389)</li><li>Virtual Network: ADLAB-vnet</li></ul> |
 | ADLAB-TEST (Testing Machine)   | <ul><li>VM Size: Standard B1ms</li><li>CPU: 1vCPU</li><li>RAM: 2GB</li><li>Storage: 64GB</li><li>Operating System: Windows Server 2022</li><li>Inbound Ports: RDP(3389)</li><li>Virtual Network: ADLAB-vnet</li></ul> |
 | ADLAB-SPLUNK(Splunk Server)     | <ul><li>VM Size: Standard D2sv3</li><li>CPU: 2vCPU</li><li>RAM: 8GB</li><li>Storage: 160GB</li><li>Operating System: Ubuntu 22.04</li><li>Inbound Ports: SSH(22)</li><li>Virtual Network: ADLAB-vnet</li></ul> |
-<img width="1340" height="486" alt="image" src="https://github.com/user-attachments/assets/be664dcd-b5f1-41bd-90f1-f15541c9a0f8" />
+<img width="693" height="248" alt="image" src="https://github.com/user-attachments/assets/62d974f7-558b-4db3-a8a3-70e8efa15112" />
+
 
 
 ## P3. Install and Setup Active Directory
