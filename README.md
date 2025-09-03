@@ -87,6 +87,17 @@ Since all VMs are under the same Virtual Network, our Splunk server should conne
 
 
 ## P3. Install and Setup Active Directory
+<p><b>Objective: </b> Install and configure Active Directory on one of the Servers, Promote it to a domain controller and have our target machine join our domain </p>
+
+### Step 1: Installing Active directory
+1. Connect to ADLAB-ADDC1 (Domain Controller)
+2. In Server Manager > Click on Add Roles and features > hit next till youve reached the Server Roles section
+3. Under Server Roles section select **Active Directory Domain Services (ADDS)** > Add feature when prompt
+4. Click on Install when you've reached the **Confirmation** section
+
+### Step 2: Domain Controller Promotion
+
+
 ## P4. Configuring Splunk 
 ## P5. Integrate Slack & Shuffle for Automation
 
