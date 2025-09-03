@@ -1,7 +1,7 @@
 # Active Directory Project
 
 ## Objective
-This Active Directory project is aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus is to setup an Acitve Directory environment, setup Splunk to detect unauthorized logins, and setup automated responses to the alert using Shuffle as our main Securtiy Orchestration, Automation, Response (SOAR) Tool. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+This Active Directory project is aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus is to setup an Acitve Directory environment, setup Splunk to detect unauthorized logins. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
 
 
 
@@ -36,6 +36,7 @@ This Active Directory project is aimed to establish a controlled environment for
 
 ### Prequisites
 1. [Azure](https://azure.microsoft.com/en-ca/pricing/purchase-options/azure-account) account - If you are a student go [here](https://azure.microsoft.com/en-us/free/students). <strong>Note: This can be done on-prem but there will be more steps involved</strong>
+2. [PuTTy](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) - This tool provides us with a Graphical User Interface (GUI) to connect via SSH to our Splunk Ubuntu Server - *This is optional you can use powershell to connect to it aswell!*
 
 
 ### Step 1: Creating our Virtual Machines on Azure
@@ -53,16 +54,29 @@ This Active Directory project is aimed to establish a controlled environment for
 1. Connect to a Virtual Machine via Remote Desktop Protocol (RDP) or Bastion (on the Azure Portal)
 2. Once you are in > Open **Windows Firewall with Advanced settings**
 3. Go to **Inbound Rules** > **New Rule (Right-hand side)**
-4. Change the following: **Rule Type: Custom** > **Program: All programs** > **Protocol and Ports - Protocol Type:ICMPv4** > **Scope: Any IP address > Action: Allow the Connection** > **Profile: Domain, Private, Public > Name: AllowICMP**
-5. Repeat for other Virtual Machine
-6. Verify Functionality
+4. Change the following:
+    - **Rule Type:** Custom
+    - **Program:** All programs
+    - **Protocol and Ports**
+      - Protocol Type: ICMPv4
+    - **Scope:** Any IP address
+    - **Action:** Allow the Connection
+    - **Profile:** Domain, Private, Public
+    - **Name:** AllowICMP
+6. Repeat for other Virtual Machine
+7. Verify Functionality using the *ping ip address* command in the Command prompt
 
 Since both VMs are under the same virtual network, our VMs will not be expose through the internet
 
 <b>Watch Tutorial for Troubleshooting:</b> <a href="https://www.youtube.com/watch?v=nNvD9IcdXLA&ab_channel=Dataverax"> Azure Network Ping Problems and ICMP </a>
 
 ### Step 3: Configuring our Splunk Server
-1. 
+1. Conenct to the Ubuntu server using PuTTY or the Powershell Command: ```ssh username@public ipaddress```
+2. Type the command: ```ip a``` to get the IP address
+3. Verify connectivity between the other Virtual Machines using the command: ```ping ipaddress```
+
+Since all VMs are under the same Virtual Network, our Splunk server should connect seamlessly
+
 | Machine | Spcifications |
 |-------------------|--------------------|
 | ADLAB-ADDC1 (Domain Controller) | <ul><li>VM Size: Standard B2s</li><li>CPU: 2vCPU</li><li>RAM: 4GB</li><li>Storage: 128GB</li><li>Operating System: Windows Server 2022</li><li>Inbound Ports: RDP(3389)</li><li>Virtual Network: ADLAB-vnet</li></ul> |
