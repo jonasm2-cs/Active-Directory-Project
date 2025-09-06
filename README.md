@@ -96,7 +96,22 @@ Since all VMs are under the same Virtual Network, our Splunk server should conne
 4. Click on Install when you've reached the **Confirmation** section
 
 ### Step 2: Domain Controller Promotion
+1. on the upper right-hand corner > click on  the icon with the Warning symbol
+2. Click on **Promote this server to a domain controller**
+3. on the Deployment Configuration section >Select **Add a new forest** > Change Root Domain name: *ADLAB.local*> Next
+4. Domain Controller Options > Apply a Strong Password > next
+5. Keep everything default > Install and Restart the Domain Controller
 
+### Step 3: Create New User
+1. Open Server manager > Top Right Corner Click-on Tools > Active Directory User and Computers
+2. Click on Domain > Users > Right-click > New > User
+3. Fill in the Fields > Next
+4. Apply a Password > check the *password never expires* box > Finish
+
+### Step 4: Domain Join a Computer
+1. On the Test Machine > Open Settings
+2. System > About > Advanced System Settings
+3. Computer name tab > Change > Domain: ADLAB
 
 ## P4. Configuring Splunk 
 ## P5. Integrate Slack & Shuffle for Automation
